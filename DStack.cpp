@@ -92,3 +92,14 @@ void Stack::pop() {
       cerr << "Stack is empty.\n";
    }
 }
+/**
+ * Display a printed version of the stack to console.
+ *
+ * @param args Stack object is inserted into out, the ostream should be open.
+ * @return void return
+*/
+void Stack::display(ostream &out) const {
+   for(int i = myTop; i >= 0; i--) {
+      out << myArray[i] << " " << endl;
+   }
+}
