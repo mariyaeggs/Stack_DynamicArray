@@ -12,6 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdd9d3a4-f1b0-4135-909e-4c14fbb5b04f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DStack.cpp" afterPath="$PROJECT_DIR$/DStack.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DStack.h" afterPath="$PROJECT_DIR$/DStack.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DStack_Tester.cpp" afterPath="$PROJECT_DIR$/DStack_Tester.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/../Stacks_DynamicArray/cmake-build-debug/" />
@@ -32,18 +35,18 @@
       <file leaf-file-name="DStack.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DStack.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="379">
+              <caret line="31" column="81" lean-forward="false" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DStack.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DStack.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DStack.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+            <state relative-caret-position="600">
+              <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding>
                 <element signature="e#25#44#0" expanded="true" />
               </folding>
@@ -54,18 +57,18 @@
       <file leaf-file-name="LinkedList.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../../Linked_List/Program1_Eggensperger_Mariya/LinkedList.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="116" column="1" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="116" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="58" column="74" lean-forward="false" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DStack_Tester.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DStack_Tester.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DStack_Tester.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="545">
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -104,9 +107,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../../../../../Linked_List/Program1_Eggensperger_Mariya/LinkedList.cpp" />
+        <option value="$PROJECT_DIR$/DStack_Tester.cpp" />
         <option value="$PROJECT_DIR$/DStack.h" />
         <option value="$PROJECT_DIR$/DStack.cpp" />
-        <option value="$PROJECT_DIR$/DStack_Tester.cpp" />
       </list>
     </option>
   </component>
@@ -356,12 +360,12 @@
       <updated>1484500457392</updated>
       <workItem from="1484500458891" duration="157000" />
       <workItem from="1484500734960" duration="4000" />
-      <workItem from="1484500802578" duration="4914000" />
+      <workItem from="1484500802578" duration="6381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5075000" />
+    <option name="totallyTimeSpent" value="6542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="41" width="1920" height="1080" extended-state="0" />
@@ -454,37 +458,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DStack.h">
+    <entry file="file://$PROJECT_DIR$/DStack_Tester.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="8" />
+        <state relative-caret-position="545">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../../Linked_List/Program1_Eggensperger_Mariya/LinkedList.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="116" column="1" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="116" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="58" column="74" lean-forward="false" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="31" column="81" lean-forward="false" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DStack.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        <state relative-caret-position="600">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
             <element signature="e#25#44#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DStack_Tester.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>

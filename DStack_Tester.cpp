@@ -20,26 +20,26 @@ using namespace std;
  * @author Mariya Eggensperger
 */
 int main() {
-   Stack DStack;
+   Stack DStack1, DStack2;
    cout << "\n\nStack created. Empty? "
-        << boolalpha << DStack.is_empty() << endl; // Print whether stack is empty
+        << boolalpha << DStack1.is_empty() << endl; // Print whether stack is empty
 
    cout << "\nEnter how many elements to add to the stack : ";
    int numItems;
    cin >> numItems; // User input of element count
    for(int i=1; i <= numItems; i++) {
-      DStack.push(i); // Insert user's elements into stack
+      DStack1.push(i); // Insert user's elements into stack
    }
    cout << "\nStack items: ";
-   DStack.display(cout);
-   cout << "\nStack empty? " << DStack.is_empty() << endl;
-   cout << "\nTop item: " << DStack.top() << endl;
-   while(!DStack.is_empty()) { // While the stack is not empty
-      cout << "\nPop: " << DStack.top() << endl;
-      DStack.pop();
+   DStack1.display(cout);
+   cout << "\nStack empty? " << DStack1.is_empty() << endl;
+   cout << "\nTop item: " << DStack1.top() << endl;
+   while(!DStack1.is_empty()) { // While the stack is not empty
+      cout << "\nPop: " << DStack1.top() << endl;
+      DStack1.pop();
    }
-   cout << "\nStack empty? " << DStack.is_empty() << enld;
-   cout << "\nTop item: " << DStack.top() << endl;
+   cout << "\nStack empty? " << DStack1.is_empty() << endl;
+   cout << "\nTop item: " << DStack1.top() << endl;
    cout << "\nPop: "<< endl;
-   DStack.pop();
+   DStack1.pop();
 }

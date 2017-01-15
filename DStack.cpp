@@ -34,6 +34,59 @@ Stack::Stack(int numElements) {
       exit(1);
    }
 }
+// Definition for stack deconstructor
+Stack::~Stack() {
+   delete [] myArray;
+}
+/**
+ * Copy constructor definition.
+ *
+ * @param args Original stack is copied and
+ * received as const reference parameter.
+ * @return A copy of the original stack.
+*/
+Stack::Stack(const Stack & original):
+        myCapacity(original.myCapacity), myTop(original.myTop) {
+   // Allocate memory for new array
+   myArray = new(nothrow) StackElement[myCapacity]; // Where myCapacity = 140 elements
+   if(myArray != 0) {
+      // Copy the original array elements
+      for(int index=0; index <= myTop; index++) {
+         myArray[index] = original.myArray[index];
+      }
+   }
+   else {
+      cerr << "Insufficient memory \n";
+      exit(1); // Terminate program
+   }
+}
+/**
+ * Assignment operator definition.
+ *
+ * @param args rightHandSide is the side to be assigned,
+ * which is received as const reference parameter.
+ * @return Current stack becomes a copy of rightHandSide.
+ * Const reference is returned.
+*/
+const Stack & Stack::operator=(const Stack &rightHandSide) {
+   if (this != &rightHandSide) { // If not stack=stack
+      if(myCapacity != rightHandSide.myCapacity) { // If capacities of both stacks are not equal
+         delete [] myArray;
+         myCapacity = rightHandSide.myCapacity; // Copy capacities
+         myArray = new StackElement[myCapacity];
+         if(myArray==0) {
+            cerr << "\nInsufficient memory" << endl;
+            exit(1);
+         }
+      }
+      myTop = rightHandSide.myTop; // Copy top stack element
+      for(int index= 0; index <= myTop; index++) {
+         myArray[index] = rightHandSide.myArray[index];
+      }
+   }
+   return *this;
+}
+
 /**
  * Boolean check if a stack is empty.
  *

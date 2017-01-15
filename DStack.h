@@ -27,6 +27,9 @@ class Stack {
 public:
     /*--Function Members--*/
     Stack(int numElements = 140); // Constructor, stack object
+    ~Stack(); // Deconstructor
+    Stack(const Stack & original); // Copy constructor
+    const Stack &operator = (const Stack & rightHandSide); // Assignemnt operator
     bool is_empty() const;
     void push(const StackElement & value);
     StackElement top() const;
