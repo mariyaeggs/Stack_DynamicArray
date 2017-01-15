@@ -1,5 +1,7 @@
 //----- DStack.cpp -----
 #include <iostream>
+#include <cassert>
+#include <new>
 using namespace std;
 
 #include "DStack.h"
@@ -19,4 +21,16 @@ using namespace std;
  *
  * @author Mariya Eggensperger
 */
-
+// Definition for stack constructor
+Stack::Stack(int numElements) {
+   assert(numElements > 0); // Check stack that stack capacity is positive
+   myCapacity = numElements; // 140 allowable elements
+   myArray  = new(nothrow) StackElement[myCapacity]; // Allocate array of this capacity
+   if(myArray!= 0) { // If memory is allocated for array
+      myTop = -1;
+   }
+   else {
+      cerr << "Insufficient memory \n";
+      exit(1);
+   }
+}
