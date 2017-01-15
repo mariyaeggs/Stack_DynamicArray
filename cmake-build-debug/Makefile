@@ -123,32 +123,59 @@ Stacks_DynamicArray/fast:
 	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/build
 .PHONY : Stacks_DynamicArray/fast
 
-main.o: main.cpp.o
+DStack.o: DStack.cpp.o
 
-.PHONY : main.o
+.PHONY : DStack.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o
-.PHONY : main.cpp.o
+DStack.cpp.o:
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o
+.PHONY : DStack.cpp.o
 
-main.i: main.cpp.i
+DStack.i: DStack.cpp.i
 
-.PHONY : main.i
+.PHONY : DStack.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/main.cpp.i
-.PHONY : main.cpp.i
+DStack.cpp.i:
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.i
+.PHONY : DStack.cpp.i
 
-main.s: main.cpp.s
+DStack.s: DStack.cpp.s
 
-.PHONY : main.s
+.PHONY : DStack.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/main.cpp.s
-.PHONY : main.cpp.s
+DStack.cpp.s:
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.s
+.PHONY : DStack.cpp.s
+
+DStack_Tester.o: DStack_Tester.cpp.o
+
+.PHONY : DStack_Tester.o
+
+# target to build an object file
+DStack_Tester.cpp.o:
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o
+.PHONY : DStack_Tester.cpp.o
+
+DStack_Tester.i: DStack_Tester.cpp.i
+
+.PHONY : DStack_Tester.i
+
+# target to preprocess a source file
+DStack_Tester.cpp.i:
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.i
+.PHONY : DStack_Tester.cpp.i
+
+DStack_Tester.s: DStack_Tester.cpp.s
+
+.PHONY : DStack_Tester.s
+
+# target to generate assembly for a file
+DStack_Tester.cpp.s:
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.s
+.PHONY : DStack_Tester.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Stacks_DynamicArray"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... DStack.o"
+	@echo "... DStack.i"
+	@echo "... DStack.s"
+	@echo "... DStack_Tester.o"
+	@echo "... DStack_Tester.i"
+	@echo "... DStack_Tester.s"
 .PHONY : help
 
 

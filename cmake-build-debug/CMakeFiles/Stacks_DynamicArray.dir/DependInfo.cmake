@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/main.cpp" "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o"
+  "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.cpp" "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o"
+  "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack_Tester.cpp" "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

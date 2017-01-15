@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/main.cpp">
+		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.cpp">
+			<Option target="Stacks_DynamicArray"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.h">
+			<Option target="Stacks_DynamicArray"/>
+		</Unit>
+		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack_Tester.cpp">
 			<Option target="Stacks_DynamicArray"/>
 		</Unit>
 		<Unit filename="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/CMakeLists.txt">

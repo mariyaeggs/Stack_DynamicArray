@@ -57,41 +57,67 @@ include CMakeFiles/Stacks_DynamicArray.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Stacks_DynamicArray.dir/flags.make
 
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o: CMakeFiles/Stacks_DynamicArray.dir/flags.make
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o -c "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/main.cpp"
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o: CMakeFiles/Stacks_DynamicArray.dir/flags.make
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o: ../DStack_Tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o -c "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack_Tester.cpp"
 
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stacks_DynamicArray.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/main.cpp" > CMakeFiles/Stacks_DynamicArray.dir/main.cpp.i
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack_Tester.cpp" > CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.i
 
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stacks_DynamicArray.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/main.cpp" -o CMakeFiles/Stacks_DynamicArray.dir/main.cpp.s
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack_Tester.cpp" -o CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.s
 
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.requires:
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.requires:
 
-.PHONY : CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.requires
 
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.provides: CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.provides
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.provides: CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.provides.build
+.PHONY : CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.provides
 
-CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.provides.build: CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o
+CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.provides.build: CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o
+
+
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o: CMakeFiles/Stacks_DynamicArray.dir/flags.make
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o: ../DStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o -c "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.cpp"
+
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.cpp" > CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.i
+
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.cpp" -o CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.s
+
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.requires:
+
+.PHONY : CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.requires
+
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.provides: CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Stacks_DynamicArray.dir/build.make CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.provides.build
+.PHONY : CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.provides
+
+CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.provides.build: CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o
 
 
 # Object files for target Stacks_DynamicArray
 Stacks_DynamicArray_OBJECTS = \
-"CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o"
+"CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o" \
+"CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o"
 
 # External object files for target Stacks_DynamicArray
 Stacks_DynamicArray_EXTERNAL_OBJECTS =
 
-Stacks_DynamicArray: CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o
+Stacks_DynamicArray: CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o
+Stacks_DynamicArray: CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o
 Stacks_DynamicArray: CMakeFiles/Stacks_DynamicArray.dir/build.make
 Stacks_DynamicArray: CMakeFiles/Stacks_DynamicArray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Stacks_DynamicArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Stacks_DynamicArray"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Stacks_DynamicArray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/Stacks_DynamicArray.dir/build: Stacks_DynamicArray
 
 .PHONY : CMakeFiles/Stacks_DynamicArray.dir/build
 
-CMakeFiles/Stacks_DynamicArray.dir/requires: CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o.requires
+CMakeFiles/Stacks_DynamicArray.dir/requires: CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o.requires
+CMakeFiles/Stacks_DynamicArray.dir/requires: CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o.requires
 
 .PHONY : CMakeFiles/Stacks_DynamicArray.dir/requires
 

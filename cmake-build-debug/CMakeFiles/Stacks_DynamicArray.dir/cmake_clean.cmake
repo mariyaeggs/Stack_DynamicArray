@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Stacks_DynamicArray.dir/main.cpp.o"
+  "CMakeFiles/Stacks_DynamicArray.dir/DStack_Tester.cpp.o"
+  "CMakeFiles/Stacks_DynamicArray.dir/DStack.cpp.o"
   "Stacks_DynamicArray.pdb"
   "Stacks_DynamicArray"
 )
