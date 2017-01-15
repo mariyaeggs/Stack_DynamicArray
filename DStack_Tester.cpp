@@ -20,6 +20,8 @@ using namespace std;
  * @author Mariya Eggensperger
 */
 int main() {
-   std::cout << "Hello, World!" << std::endl;
-   return 0;
+   Stack dynamic_stack;
+   cout << "\n\nStack created. Empty? "
+        << boolalpha << dynamic_stack.is_empty() << endl; // Print whether stack is empty
+
 }
