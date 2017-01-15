@@ -77,3 +77,18 @@ StackElement Stack::top() const { // Accessor function
       return garbage_val;
    }
 }
+/**
+ * Remove a value to the top of the stack.
+ *
+ * @param args Stack is not empty.
+ * @return Value at the top of the stack
+ * is removed, unless stack is emtpy.
+*/
+void Stack::pop() {
+   if(!is_empty()) {
+      myTop--;
+   }
+   else {
+      cerr << "Stack is empty.\n";
+   }
+}
