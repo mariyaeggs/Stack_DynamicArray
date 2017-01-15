@@ -44,7 +44,7 @@ bool Stack::is_empty() const {
    return (myTop == -1);
 }
 /**
- * Adds a value to the stack.
+ * Adds a value to the top of the stack.
  *
  * @param args Value to be added to stack.
  * @return Value added to stack if there is space;
@@ -58,5 +58,22 @@ void Stack::push(const StackElement &value) {
    else {
       cerr << "Stack full. Increase stack memory capactiy.\n";
       exit(1); // Terminate program
+   }
+}
+/**
+ * Retreive a value from the top of the stack.
+ *
+ * @param args Stack is not empty.
+ * @return Value at the top of the stack is returned,
+ * unless stack is empty.
+*/
+StackElement Stack::top() const { // Accessor function
+   if(!is_empty()) {
+      return (myArray[myTop]);
+   }
+   else {
+      cerr << "Stack is empty. Garbage value returned.\n";
+      StackElement garbage_val;
+      return garbage_val;
    }
 }

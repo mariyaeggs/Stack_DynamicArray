@@ -29,7 +29,7 @@ public:
     Stack(int numElements = 140); // Constructor, stack object
     bool is_empty() const;
     void push(const StackElement & value);
-    void top() const;
+    StackElement top() const;
     void pop();
 
     void display(ostream & out) const;
