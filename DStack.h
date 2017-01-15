@@ -20,5 +20,30 @@ using namespace std;
  *
  * @author Mariya Eggensperger
 */
+typedef int StackElement;
+
+class Stack {
+
+public:
+    /*--Function Members--*/
+    Stack(int numElements = 140); // Constructor, stack object
+    bool is_empty() const;
+    void push(const StackElement & value);
+    void top() const;
+    void pop();
+
+    void display(ostream & out) const;
+    /*--------------------------------------------------------------------
+    Display the contents of this dynamic array stack.
+    Precondition: Ostream out is open
+    Postcondition: Elements of this Stack have been output to out.
+    --------------------------------------------------------------------*/
+
+private:
+
+};
+
+
+
 
 #endif //STACKS_DYNAMICARRAY_DSTACK_H
