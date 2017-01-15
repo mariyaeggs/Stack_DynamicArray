@@ -40,10 +40,10 @@ public:
     --------------------------------------------------------------------*/
 
 private:
-
-};
-
-
-
+    /*--Data Members--*/
+    int myCapacity; // Capacity of the stack
+    int myTop; // Top of the stack
+    StackElement * myArray; // Dynamic array to store elements
+}; // End of Stack class
 
 #endif //STACKS_DYNAMICARRAY_DSTACK_H
