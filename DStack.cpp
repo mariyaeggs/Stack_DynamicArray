@@ -34,3 +34,29 @@ Stack::Stack(int numElements) {
       exit(1);
    }
 }
+/**
+ * Boolean check if a stack is empty.
+ *
+ * @param args True if the stack is empty, false if not.
+ * @return Boolean value for size of stack.
+*/
+bool Stack::is_empty() const {
+   return (myTop == -1);
+}
+/**
+ * Adds a value to the stack.
+ *
+ * @param args Value to be added to stack.
+ * @return Value added to stack if there is space;
+ * otherwise, error message and termination.
+*/
+void Stack::push(const StackElement &value) {
+   if(myTop < myCapacity - 1) { // If array is not full
+      myTop++;
+      myArray[myTop] = value; // Store value in myArray[myTop];
+   }
+   else {
+      cerr << "Stack full. Increase stack memory capactiy.\n";
+      exit(1); // Terminate program
+   }
+}

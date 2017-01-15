@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/main.cpp
+/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.cpp
 iostream
 -
+cassert
+-
+new
+-
+DStack.h
+/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.h
+
+/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.h
+iostream
+-
+
+/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack_Tester.cpp
+iostream
+-
+DStack.h
+/Users/student/Desktop/CSUMB/CST370/Week2 /HW2_Eggensperger_Mariya/Stack_DynamicArray/DStack.h
 
